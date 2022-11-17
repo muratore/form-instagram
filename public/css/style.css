@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F3F5;
+
+}
+:root{
+   --ig-elevated-separator: 219, 219, 219;
+   --ig-secondary-text: 142, 142, 142;
+   --ig-primary-button: 0, 149, 246;
+   --background: #F2F3F5;
+}
+.wrap--signup{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.frame{
+    border: 1px solid rgb(var(--ig-elevated-separator))
+}
+.container--frame{
+    width: 350px;
+}
+.logo >img{
+    width: 175px;
+    margin: 0px 0 12px;
+}
+#form--wrap{
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 365px;
+    padding: 40px;
+    border: 1px solid rgb(var(--ig-elevated-separator))
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: rgb(var(--ig-secondary-text));
+}
+
+form h2{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 20px 20px;
+}
+
+/* Line ou */
+
+.line--wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(var(--ig-secondary-text));
+    margin: 7px 0 17px;
+}
+.line{
+    width: 45%;
+    height: .5px;
+    font-weight: bold;
+    background-color: rgb(var(--ig-secondary-text));
+    
+}
+
+form > input, button {
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(var(--ig-elevated-separator));
+    border-radius: 3px;
+    background-color: var(--background);
+}
+
+form p {
+    color: rgb(var(--ig-secondary-text));
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 0;
+}
+.facebookBtn{
+    display: flex;
+    border-radius: 5px;
+    
+}
+form button{
+    flex: 1;
+    background-color: rgb(var(--ig-primary-button));
+    color: white;
+    border: none;
+}
+
+span.highlight--link, a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(var(--ig-secondary-text));
+
+   
+}
+.btn--count{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    margin: 10px 0;
+}
+.opacity{
+    opacity: .5;
+}
