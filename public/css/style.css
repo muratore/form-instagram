@@ -41,8 +41,6 @@ body{
     border: 1px solid rgb(var(--ig-elevated-separator))
 }
 
-
-
 form{
     display: flex;
     flex-direction: column;
@@ -54,8 +52,11 @@ form h2{
     font-weight: 600;
     line-height: 20px;
     margin: 0 20px 20px;
+    
 }
-
+form button{
+    cursor: pointer;
+}
 /* Line ou */
 
 .line--wrap{
